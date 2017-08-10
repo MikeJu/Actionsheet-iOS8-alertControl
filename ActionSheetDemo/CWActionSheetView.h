@@ -23,4 +23,6 @@ typedef  void(^selectIndexBlock)(NSInteger selectIndex);
 //@property (nonatomic, weak) id <CWSelectionItemsProtocol>delegate;
 
 + (void)showWithItemsBlock:(void(^)(id <CWSelectionItemsProtocol> items))itemBlock selectBlock:(selectIndexBlock)selectBlock;
+
+
 @end
